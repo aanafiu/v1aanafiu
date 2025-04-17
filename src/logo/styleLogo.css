@@ -1,0 +1,79 @@
+
+.body-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    /* position: relative; */
+    width: 50px;
+    height:fit-content;
+    /* background-color: bisque; */
+}
+.left-bar{
+    height: 45px;
+    width: 10px;
+    background-color: rgb(155, 80, 216);
+    animation-name: belowToUp;
+    animation-timing-function: ease-in-out;
+    animation-duration: 3s;
+    /* animation-iteration-count: 1; */
+    animation-iteration-count: 1;
+    /* animation-play-state: paused; */
+    animation-fill-mode: forwards;
+    border-radius: 12px;
+    
+}
+.right-bar{
+    height: 45px;
+    width: 10px;
+    background-color: rgb(155, 80, 216);
+    animation-name: belowToUp;
+    animation-timing-function: ease-in-out;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    /* animation-play-state: paused; */
+    animation-fill-mode: forwards;
+    border-radius: 12px;
+    
+}
+.center-bar{
+    /* height: 250px; */
+    width: 9px;
+    background-color: rgb(155, 80, 216);
+    animation-name: rotateToUp;
+    animation-timing-function: ease-in-out;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    /* animation-play-state: paused; */
+    animation-fill-mode: forwards;
+    border-radius: 4px;
+    
+    
+}
+
+@keyframes belowToUp {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes rotateToUp {
+    0%{
+        transform: rotate(180deg);
+        height: 10px;
+        border: 5px solid rgb(255, 255, 255);
+    }
+    50%{
+        height: 20px;
+        height: 10px;
+        border: 10px solid rgb(255, 255, 255);
+    }
+    100%{
+        height: 54px;
+        rotate: -45deg;
+        border: 1px solid rgba(255, 255, 255, 0.349);
+    }
+}
+

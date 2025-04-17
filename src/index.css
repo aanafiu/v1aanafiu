@@ -1,0 +1,60 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+
+
+@theme{
+    --color-background: oklch(.145 0 0);
+    --color-foreground: oklch(.985 0 0);
+    --color-card: oklch(.205 0 0);
+    --color-card-foreground: oklch(.985 0 0);
+    --color-popover: oklch(.205 0 0);
+    --color-popover-foreground: oklch(.985 0 0);
+    --color-primary: oklch(.922 0 0);
+    --color-primary-foreground: oklch(.205 0 0);
+    --color-secondary: oklch(.269 0 0);
+    --color-secondary-foreground: oklch(.985 0 0);
+    --color-muted: oklch(.269 0 0);
+    --color-muted-foreground: oklch(.708 0 0);
+    --color-accent: oklch(.269 0 0);
+    --color-accent-foreground: oklch(.985 0 0);
+    --color-destructive: oklch(.704 .191 22.216);
+    --color-border: oklch(1 0 0 / 10%);
+    --color-input: oklch(1 0 0 / 15%);
+    --color-ring: oklch(.556 0 0);
+    --color-chart-1: oklch(.488 .243 264.376);
+    --color-chart-2: oklch(.696 .17 162.48);
+    --color-chart-3: oklch(.769 .188 70.08);
+    --color-chart-4: rgb(155, 80, 216);
+    --color-chart-5: oklch(.645 .246 16.439);
+    --color-sidebar: oklch(.205 0 0);
+    --color-sidebar-foreground: oklch(.985 0 0);
+    --color-sidebar-primary: oklch(.488 .243 264.376);
+    --color-sidebar-primary-foreground: oklch(.985 0 0);
+    --color-sidebar-accent: oklch(.269 0 0);
+    --color-sidebar-accent-foreground: oklch(.985 0 0);
+    --color-sidebar-border: oklch(1 0 0 / 10%);
+    --color-sidebar-ring: oklch(.556 0 0);
+    --color-skin-hue: rgb(155, 80, 216);
+}
+
+.glass{
+background: rgba(173, 70, 255, 0.22);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(20px);
+-webkit-backdrop-filter: blur(20px);
+border: 1px solid rgba(173, 70, 255, 0.3);
+}
+
+.animated-hover {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .animated-hover:hover {
+    transform: scale(1.1);
+  }
+
+  li::marker{
+    color: var(--color-chart-4);
+  }
