@@ -4,7 +4,7 @@ import React from "react";
 const StatusBoard = () => {
     
   return (
-    <div className="grid grid-cols-1 md:grid-cols-3 gap-5 mb-20">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mb-20">
 
       {/* Currently Learning */}
       <div className=" border border-chart-4 rounded-xl p-6 shadow-md">
@@ -23,7 +23,7 @@ const StatusBoard = () => {
         <p className="italic  text-sm">
           "Success is not final, failure is not fatal: It is the courage to continue that counts."
         </p>
-        <p className="mt-2 text-center text-xs ">--------------------------------------------</p>
+        <p className="mt-2 text-center text-xs ">------------------</p>
         <p className="italic text-sm">
           "Keep Proud But Never Satisfied"
         </p>

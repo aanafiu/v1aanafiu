@@ -68,7 +68,7 @@ const Profile = () => {
 
       {/* social icons */}
       <p className="text-2xl font-extralight my-2">Connect With Me:</p>
-      <div className="flex items-center gap-3">
+      <div className="flex items-center gap-3 flex-wrap">
         <a href="">
           <IoMdMail className="text-chart-4 text-4xl rounded-lg p-1 transition-all duration-300 ease-in-out hover:text-primary hover:bg-chart-4" />
         </a>
@@ -107,7 +107,7 @@ const Profile = () => {
           {darkMode ? (
             <IoSunnySharp className="text-chart-4 text-4xl rounded-lg w-[40px] h-[40px] transition-all duration-300 ease-in-out hover:rotate-45" />
           ) : (
-            <FaMoon className="text-chart-4 text-4xl rounded-lg w-[40px] h-[40px] transition-all duration-300 ease-in-out hover:text-primary hover:-rotate-90 " />
+            <FaMoon className="text-chart-4 text-4xl rounded-lg w-[40px] h-[40px] transition-all duration-300 ease-in-out hover:-rotate-90 " />
           )}
         </button>
       </div>

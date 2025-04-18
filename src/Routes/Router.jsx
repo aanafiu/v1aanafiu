@@ -9,6 +9,8 @@ import TimeZone from "../Components/TimeZone";
 import Resume from "../Components/Resume";
 import StatusBoard from "../Components/SatusBoard";
 import Skills from "../Components/Skills";
+import OnlineProfiles from "../Components/OnlineProfiles";
+import Projects from "../Components/Projects";
   
 export const router = createBrowserRouter([
     {
@@ -34,5 +36,13 @@ export const router = createBrowserRouter([
     {
       path: "/sk",
       element: <Skills/>,
+    },
+    {
+      path: "/op",
+      element: <OnlineProfiles/>,
+    },
+    {
+      path: "/pro",
+      element: <Projects/>,
     },
   ]);

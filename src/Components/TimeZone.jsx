@@ -2,10 +2,10 @@ import React, { useEffect, useState } from "react";
 
 const TimeCard = ({ title, date, time, location, active }) => {
   return (
-    <div className=" p-6 rounded-xl w-full shadow-md border border-chart-4">
+    <div className="p-6 rounded-xl w-full shadow-md border border-chart-4">
       <h2 className="text-lg font-semibold">{title}</h2>
       <p className="text-sm text-gray-400">{date}</p>
-      <div className="flex items-center gap-2 text-3xl font-mono my-2">
+      <div className="flex items-center gap-2 text-3xl sm:text-xl md:text-3xl font-mono my-2">
         {time}
         {active && <span className="h-3 w-3 bg-green-500 rounded-full animate-pulse" />}
       </div>
@@ -34,7 +34,7 @@ const TimeZone = () => {
     date.toLocaleTimeString("en-GB", { hour12: false });
 
   return (
-    <div className="flex gap-4 w-full items-center justify-center">
+    <div className="flex flex-wrap lg:flex-nowrap gap-4 w-full items-center justify-center">
       <TimeCard
         title="My time"
         date={formatDate(bdTime)}
