@@ -62,7 +62,7 @@ const Projects = () => {
               href="https://mongo-medicamp.web.app/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-purple-300 hover:underline flex items-center gap-1"
+              className="text-chart-4 font-semibold hover:underline flex items-center gap-1"
             >
               Live Demo <FaExternalLinkAlt />
             </a>
@@ -70,7 +70,7 @@ const Projects = () => {
               href="https://github.com/aanafiu/mongo-medicamp"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-purple-300 hover:underline flex items-center gap-1"
+              className="text-chart-4 font-semibold hover:underline flex items-center gap-1"
             >
               GitHub Repo <FaGithub />
             </a>
@@ -136,7 +136,7 @@ const Projects = () => {
               href="https://mongo-volunteer-lagbe.web.app/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-purple-300 hover:underline flex items-center gap-1"
+              className="text-chart-4 font-semibold hover:underline flex items-center gap-1"
             >
               Live Demo <FaExternalLinkAlt />
             </a>
@@ -144,7 +144,7 @@ const Projects = () => {
               href="https://github.com/aanafiu/firebase-volunteer-lagbe"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-purple-300 hover:underline flex items-center gap-1"
+              className="text-chart-4 font-semibold hover:underline flex items-center gap-1"
             >
               GitHub Repo <FaGithub />
             </a>
@@ -206,7 +206,7 @@ const Projects = () => {
               href="https://reactfirebase-coupon-letters.web.app/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-purple-300 hover:underline flex items-center gap-1"
+              className="text-chart-4 font-semibold hover:underline flex items-center gap-1"
             >
               Live Demo <FaExternalLinkAlt />
             </a>
@@ -214,7 +214,7 @@ const Projects = () => {
               href="https://github.com/aanafiu/reactfirebase-coupon-letters"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-purple-300 hover:underline flex items-center gap-1"
+              className="text-chart-4 font-semibold hover:underline flex items-center gap-1"
             >
               GitHub Repo <FaGithub />
             </a>
@@ -276,7 +276,7 @@ const Projects = () => {
               href="https://r7t4d5-kikikorbo.web.app/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-purple-300 hover:underline flex items-center gap-1"
+              className="text-chart-4 font-semibold hover:underline flex items-center gap-1"
             >
               Live Demo <FaExternalLinkAlt />
             </a>
@@ -284,7 +284,7 @@ const Projects = () => {
               href="https://github.com/aanafiu/TO-DO-Latest-Client"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-purple-300 hover:underline flex items-center gap-1"
+              className="text-chart-4 font-semibold hover:underline flex items-center gap-1"
             >
               GitHub Repo <FaGithub />
             </a>

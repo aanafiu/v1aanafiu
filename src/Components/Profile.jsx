@@ -38,7 +38,7 @@ const Profile = () => {
           class="shadow-lg shadow-skin-hue"
           src={mypp}
           alt="Abdullah Al Nafiu"
-          className="w-[150px] h-[150px] rounded-2xl p-2"
+          className="w-[250px] h-[250px] rounded-2xl p-2"
         />{" "}
         <div class="pointer-events-none absolute -inset-2">
           {" "}
@@ -69,22 +69,22 @@ const Profile = () => {
       {/* social icons */}
       <p className="text-2xl font-extralight my-2">Connect With Me:</p>
       <div className="flex items-center gap-3 flex-wrap">
-        <a href="">
+        <a href="mailto:abdullahall.nafiu@gmail.com">
           <IoMdMail className="text-chart-4 text-4xl rounded-lg p-1 transition-all duration-300 ease-in-out hover:text-primary hover:bg-chart-4" />
         </a>
-        <a href="">
+        <a href="tel:+8801636748351">
           <FaPhoneAlt className="text-chart-4 text-4xl rounded-lg p-1 transition-all duration-300 ease-in-out hover:text-primary hover:bg-chart-4" />
         </a>
-        <a href="">
+        <a href="#">
           <FaXTwitter className="text-chart-4 text-4xl rounded-lg p-1 transition-all duration-300 ease-in-out hover:text-primary hover:bg-chart-4" />
         </a>
-        <a href="">
+        <a href="https://github.com/aanafiu">
           <FaGithub className="text-chart-4 text-4xl rounded-lg p-1 transition-all duration-300 ease-in-out hover:text-primary hover:bg-chart-4" />
         </a>
-        <a href="">
+        <a href="https://codeforces.com/profile/break_end">
           <SiCodeforces className="text-chart-4 text-4xl rounded-lg p-1 transition-all duration-300 ease-in-out hover:text-primary hover:bg-chart-4" />
         </a>
-        <a href="">
+        <a href="https://www.linkedin.com/in/aanafiu/">
           <FaLinkedin className="text-chart-4 text-4xl rounded-lg p-1 transition-all duration-300 ease-in-out hover:text-primary hover:bg-chart-4" />
         </a>
       </div>

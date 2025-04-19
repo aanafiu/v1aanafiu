@@ -8,6 +8,11 @@ import Aos from "aos";
 import Skills from "../Components/Skills";
 import OnlineProfiles from "../Components/OnlineProfiles";
 import Projects from "../Components/Projects";
+import Education from "../Components/Education";
+import Awards from "../Components/Awards";
+import Certificates from "../Components/Certificates";
+import ExperienceAndHobbies from "../Components/ExperieneceAndHobbies";
+import Footer from "../Components/Footer";
 
 const Layout = () => {
   Aos.init();
@@ -33,7 +38,7 @@ const Layout = () => {
       </section>
 
       {/* Skills */}
-      <section className="grid grid-cols-10 gap-5">
+      <section id="skills" className="grid grid-cols-10 gap-5">
         <div className="col-span-10 md:col-span-5 lg:col-span-6">
           <Skills />
         </div>
@@ -43,11 +48,38 @@ const Layout = () => {
       </section>
 
       {/* Projects */}
-      <section className="w-full mt-10 mb-20">
+      <section id="projects" className="w-full mt-10 mb-20">
         <div>
-            <Projects></Projects>
+          <Projects></Projects>
         </div>
       </section>
+
+      {/* Education */}
+      <section id="education" className="mt-10 mb-20">
+        <div data-aos="fade-up">
+          <Education />
+        </div>
+      </section>
+
+      {/* Experience & Hobbies */}
+      <section data-aos="fade-up" id="experience">
+        <ExperienceAndHobbies />
+      </section>
+
+      {/* Awards */}
+      <section className="grid grid-cols-11 gap-5">
+        <div data-aos="fade-up" className="col-span-full md:col-span-4">
+          <Awards></Awards>
+        </div>
+        <div  data-aos="fade-up" className="col-span-full md:col-span-7">
+          <Certificates></Certificates>
+        </div>
+      </section>
+
+      {/* Footer */}
+      <footer>
+        <Footer></Footer>
+      </footer>
     </div>
   );
 };

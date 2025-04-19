@@ -56,7 +56,9 @@
 li::marker {
   color: var(--color-chart-4);
 }
-
+html {
+    scroll-behavior: smooth;
+  }
 /* Scroll Bar Custom */
 /* Works on Chrome, Edge, and Safari */
 ::-webkit-scrollbar {

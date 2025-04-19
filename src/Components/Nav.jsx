@@ -2,9 +2,10 @@ import { useState } from "react";
 import { NavLink } from "react-router";
 import Logo from "../logo/logo";
 import { FaTimes } from "react-icons/fa";
-import 'animate.css';
+import "animate.css";
 
 import { RiMenu4Line } from "react-icons/ri";
+import { Link as ScrollLink } from "react-scroll";
 
 const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,14 +17,18 @@ const Nav = () => {
       {/* Logo */}
       <div className="flex justify-center items-end gap-1 z-10">
         <Logo />
-        <h1 className="text-accent-foreground text-3xl h-full font-bold">afiu</h1>
+        <h1 className="text-accent-foreground text-3xl h-full font-bold">
+          afiu
+        </h1>
       </div>
 
       {/* Hamburger Toggle (for < md) */}
       <div className="flex lg:hidden z-10">
-        <button onClick={toggleMenu} className="text-3xl font-extrabold text-chart-4">
-          {isOpen ? <FaTimes /> : <RiMenu4Line />
-          }
+        <button
+          onClick={toggleMenu}
+          className="text-3xl font-extrabold text-chart-4"
+        >
+          {isOpen ? <FaTimes /> : <RiMenu4Line />}
         </button>
       </div>
 
@@ -37,11 +42,22 @@ const Nav = () => {
           rounded-xl shadow-xl lg:shadow-none 
         `}
       >
-        <NavLink href="#" className="animated-hover">💼 Experience</NavLink>
-        <NavLink href="#" className="animated-hover">🛠 Skills</NavLink>
-        <NavLink href="#" className="animated-hover">🖥 Projects</NavLink>
-        <NavLink href="#" className="animated-hover">📚 Education</NavLink>
-        <NavLink href="#" className="animated-hover">🏆 Awards</NavLink>
+<ScrollLink to="experience" smooth={true} offset={-130} duration={500} className="animated-hover cursor-pointer">
+  💼 Experience
+</ScrollLink>
+<ScrollLink to="skills" smooth={true} offset={-130} duration={500} className="animated-hover cursor-pointer">
+  🛠 Skills
+</ScrollLink>
+<ScrollLink to="projects" smooth={true} offset={-130} duration={500} className="animated-hover cursor-pointer">
+  🖥 Projects
+</ScrollLink>
+<ScrollLink to="education" smooth={true} offset={-130} duration={500} className="animated-hover cursor-pointer">
+  📚 Education
+</ScrollLink>
+<ScrollLink to="awards" smooth={true} offset={-130} duration={500} className="animated-hover cursor-pointer">
+  🏆 Awards
+</ScrollLink>
+
       </div>
     </div>
   );

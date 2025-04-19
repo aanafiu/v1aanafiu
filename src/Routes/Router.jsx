@@ -11,6 +11,9 @@ import StatusBoard from "../Components/SatusBoard";
 import Skills from "../Components/Skills";
 import OnlineProfiles from "../Components/OnlineProfiles";
 import Projects from "../Components/Projects";
+import Education from "../Components/Education";
+import Awards from "../Components/Awards";
+import ExperienceAndHobbies from "../Components/ExperieneceAndHobbies";
   
 export const router = createBrowserRouter([
     {
@@ -44,5 +47,17 @@ export const router = createBrowserRouter([
     {
       path: "/pro",
       element: <Projects/>,
+    },
+    {
+      path: "/edu",
+      element: <Education/>,
+    },
+    {
+      path: "/awd",
+      element: <Awards/>,
+    },
+    {
+      path: "/eah",
+      element: <ExperienceAndHobbies/>,
     },
   ]);
