@@ -23,7 +23,7 @@ const Layout = () => {
         <Nav></Nav>
       </nav>
       {/* Hero */}
-      <section className="w-full mt-30 mb-20 grid grid-cols-11 gap-5">
+      <section className="w-full mt-20 mb-20 grid grid-cols-11 gap-5">
         <div className="w-full col-span-11 md:col-span-5">
           <Profile />
         </div>

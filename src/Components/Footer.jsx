@@ -2,7 +2,7 @@ import React from "react";
 import astroI from "/astro.svg";
 const Footer = () => {
   return (
-    <footer className="glass py-8 mt-16">
+    <footer className="glass py-4 mt-7">
       <div className="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-4">
         {/* Copyright */}
         <p className="text-xs text-center md:text-right">

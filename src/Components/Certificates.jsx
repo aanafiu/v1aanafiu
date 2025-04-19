@@ -4,7 +4,7 @@ import { BsGlobe } from "react-icons/bs";
 
 const Certificates = () => {
   return (
-    <div id="certificates" className="m-10">
+    <div id="certificates" className="mb-10">
       <h2 className="text-3xl font-bold mb-6 flex items-center gap-2">
         <FaCertificate className="text-green-400" /> Certificates
       </h2>
