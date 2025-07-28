@@ -17,17 +17,17 @@ import Footer from "../Components/Footer";
 const Layout = () => {
   Aos.init();
   return (
-    <div className="w-[70%] mx-auto">
+    <div className="w-[90%] md:w-[70%] mx-auto">
       {/* nav */}
       <nav className="container mx-auto sticky top-10 z-10">
         <Nav></Nav>
       </nav>
       {/* Hero */}
       <section className="w-full mt-20 mb-20 grid grid-cols-11 gap-5">
-        <div className="w-full col-span-11 md:col-span-5">
+        <div className="w-full col-span-11 md:col-span-5 animate__animated animate__rotateInDownLeft animate__slower">
           <Profile />
         </div>
-        <div className="w-full col-span-11 md:col-span-6 space-y-5 animate__animated animate__rotateInDownRight">
+        <div className="w-full col-span-11 md:col-span-6 space-y-5 animate__animated animate__rotateInDownRight animate__slower">
           <TimeZone />
           <Resume />
         </div>
@@ -62,7 +62,7 @@ const Layout = () => {
       </section>
 
       {/* Experience & Hobbies */}
-      <section data-aos="fade-up" id="experience">
+      <section id="experience" className="mt-10 mb-20">
         <ExperienceAndHobbies />
       </section>
 

@@ -35,6 +35,18 @@ const Certificates = () => {
             <PiCalendarBlankLight /> 2022
           </p>
         </div>
+        {/* Dev Skill Certificate */}
+        <div className="border border-chart-4 p-5 rounded-xl hover:shadow-green-500/30 transition-all">
+          <h3 className="text-xl font-semibold mb-2 text-chart-4">
+            Competitive Programming - Beginner
+          </h3>
+          <p className="text-sm flex items-center gap-2 mb-2 text-muted-foreground">
+            <BsGlobe /> Dev Skill
+          </p>
+          <p className="text-sm flex items-center gap-2 text-muted-foreground">
+            <PiCalendarBlankLight /> 2023
+          </p>
+        </div>
       </div>
     </div>
   );

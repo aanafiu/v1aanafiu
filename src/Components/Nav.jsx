@@ -7,13 +7,16 @@ import "animate.css";
 import { RiMenu4Line } from "react-icons/ri";
 import { Link as ScrollLink } from "react-scroll";
 
+
 const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => setIsOpen(!isOpen);
 
+
+
   return (
-    <div className="py-5 flex justify-between items-center glass px-4 relative">
+    <div className="py-3 flex justify-between items-center glass backdrop-blur-3xl px-4 relative">
       {/* Logo */}
       <div className="flex justify-center items-end gap-1 z-10">
         <Logo />

@@ -5,7 +5,7 @@ const ExperienceAndHobbies = () => {
   const hobbies = ["Traveling", "Video Editing", "Photo Editing", "Cooking", "Challenges"];
 
   return (
-    <div id="experience-hobbies" className="mb-20">
+    <div id="experience-hobbies" data-aos="fade-up" className="mb-20">
       {/* Experience Section */}
       <h2 className="text-3xl font-bold mb-6 flex items-center gap-2">
         <FaBriefcase className="text-blue-400" /> Experience

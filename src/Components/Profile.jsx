@@ -30,7 +30,7 @@ const Profile = () => {
   }, [darkMode]);
 
   return (
-    <div className="w-[100%] animate__animated animate__rotateInDownLeft">
+    <div className="w-[100%] ">
       {/* image */}
       <figure class="print:hidden w-fit relative animated-hover m-10">
         {" "}

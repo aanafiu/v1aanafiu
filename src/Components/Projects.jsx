@@ -4,11 +4,90 @@ import { FaGithub } from "react-icons/fa6";
 const Projects = () => {
   return (
     <section className="">
-      <h2 className="text-3xl font-bold mb-8 flex items-center gap-2">
-        🚀 Projects
-      </h2>
+      <div className="text-3xl font-bold mb-8 flex items-center gap-2">
+        <h2>🚀 Projects</h2>
+        <h3 className="hidden md:flex text-[12px] font-extralight font-mono text-chart-4">
+          /-Place Mouse On Projects
+        </h3>
+        <h3 className="flex md:hidden text-[12px] font-extralight font-mono text-chart-4">
+          /-Click Mouse On Projects
+        </h3>
+      </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        {/* TinyTask Project - New Top Card */}
+        <div
+          data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000"
+          className="w-full h-fit perspective mx-auto"
+        >
+          <div className="relative w-full h-[500px] transition-transform duration-700 transform-style preserve-3d group hover:rotate-y-180 focus:rotate-y-180 active:rotate-y-180">
+            {/* Front Side */}
+            <div className="absolute inset-0 backface-hidden rounded-xl glass p-6 border border-chart-4 shadow-md">
+              <h3 className="text-xl font-bold mb-4">TinyTask</h3>
+              <ul className="list-disc list-inside text-sm space-y-2">
+                <li>
+                  <strong>Full-Stack Educational Platform:</strong> Complete
+                  tasks, earn coins.
+                </li>
+                <li>
+                  <strong>Three Admin Types:</strong> Super admin, task creator,
+                  and player roles.
+                </li>
+                <li>
+                  <strong>Task Types:</strong> Four categories for diverse
+                  challenges.
+                </li>
+                <li>
+                  <strong>Real-Time Updates:</strong> Tasks and ranking update
+                  dynamically.
+                </li>
+                <li>
+                  <strong>Dashboard:</strong> Role & profile-based dynamic UI.
+                </li>
+                <li>
+                  <strong>Tech Stack:</strong> React, Node, Express, MongoDB,
+                  SSLCommerz, Tailwind.
+                </li>
+                <li>
+                  <strong>Rank Charts:</strong> Leaderboard-based engagement
+                  system.
+                </li>
+              </ul>
+            </div>
+
+            {/* Back Side - Live Preview */}
+            <div className="absolute inset-0 backface-hidden rotate-y-180 rounded-xl overflow-hidden border border-chart-4">
+              <iframe
+                src="https://tinytask-mern.web.app/"
+                title="TinyTask Preview"
+                className="w-full h-full"
+              ></iframe>
+            </div>
+          </div>
+
+          {/* Links */}
+          <div className="mt-4 flex items-center gap-4 flex-wrap">
+            <a
+              href="https://tinytask-mern.web.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-chart-4 font-semibold hover:underline flex items-center gap-1"
+            >
+              Live Demo <FaExternalLinkAlt />
+            </a>
+            <a
+              href="https://github.com/aanafiu/tinytask-mern-frontend"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-chart-4 font-semibold hover:underline flex items-center gap-1"
+            >
+              GitHub Repo <FaGithub />
+            </a>
+          </div>
+        </div>
+
         {/* Medicamp Project Card */}
         <div
           data-aos="flip-left"
@@ -16,7 +95,7 @@ const Projects = () => {
           data-aos-duration="2000"
           className="w-full h-fit perspective mx-auto"
         >
-          <div className="relative w-full h-[500px] transition-transform duration-700 transform-style preserve-3d group hover:rotate-y-180">
+          <div className="relative w-full h-[500px] transition-transform duration-700 transform-style preserve-3d group hover:rotate-y-180 focus:rotate-y-180 active:rotate-y-180">
             {/* Front Side */}
             <div className="absolute inset-0 backface-hidden rounded-xl glass p-6 border border-chart-4 shadow-md">
               <h3 className="text-xl font-bold mb-4">Medicamp</h3>
@@ -84,7 +163,7 @@ const Projects = () => {
           data-aos-duration="2000"
           className="w-full h-fit perspective mx-auto"
         >
-          <div className="relative w-full h-[500px] transition-transform duration-700 transform-style preserve-3d group hover:rotate-y-180">
+          <div className="relative w-full h-[500px] transition-transform duration-700 transform-style preserve-3d group hover:rotate-y-180 focus:rotate-y-180 active:rotate-y-180">
             {/* Front Side */}
             <div className="absolute inset-0 backface-hidden rounded-xl p-6 border border-chart-4 shadow-md">
               <h3 className="text-xl font-bold mb-4">Volunteer Lagbe</h3>
@@ -158,7 +237,7 @@ const Projects = () => {
           data-aos-duration="2000"
           className="w-full h-fit  perspective mx-auto"
         >
-          <div className="relative w-full h-[500px] transition-transform duration-700 transform-style preserve-3d group hover:rotate-y-180">
+          <div className="relative w-full h-[500px] transition-transform duration-700 transform-style preserve-3d group hover:rotate-y-180 focus:rotate-y-180 active:rotate-y-180">
             {/* Front Side */}
             <div className="absolute inset-0 backface-hidden rounded-xl p-6 border border-chart-4 shadow-md">
               <h3 className="text-xl font-bold mb-4">Coupon Letters</h3>
@@ -228,7 +307,7 @@ const Projects = () => {
           data-aos-duration="2000"
           className="w-full h-fit perspective mx-auto"
         >
-          <div className="relative w-full h-[500px] transition-transform duration-700 transform-style preserve-3d group hover:rotate-y-180">
+          <div className="relative w-full h-[500px] transition-transform duration-700 transform-style preserve-3d group hover:rotate-y-180 focus:rotate-y-180 active:rotate-y-180">
             {/* Front Side */}
             <div className="absolute inset-0 backface-hidden rounded-xl glass p-6 border border-chart-4 shadow-md">
               <h3 className="text-xl font-bold mb-4">To-Do Latest</h3>
