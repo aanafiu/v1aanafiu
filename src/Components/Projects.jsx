@@ -10,7 +10,7 @@ const Projects = () => {
           /-Place Mouse On Projects
         </h3>
         <h3 className="flex md:hidden text-[12px] font-extralight font-mono text-chart-4">
-          /-Click Mouse On Projects
+          /-Long Press On Projects
         </h3>
       </div>
 
