@@ -10,6 +10,18 @@ const Certificates = () => {
       </h2>
 
       <div className="grid md:grid-cols-2 gap-6">
+        {/* ICPC Certificate */}
+        <div className="border border-chart-4 p-5 rounded-xl hover:shadow-green-500/30 transition-all">
+          <h3 className="text-xl font-semibold mb-2 text-chart-4">
+            Dhaka Regional On-Site Contest
+          </h3>
+          <p className="text-sm flex items-center gap-2 mb-2 text-muted-foreground">
+            <BsGlobe /> ICPC
+          </p>
+          <p className="text-sm flex items-center gap-2 text-muted-foreground">
+            <PiCalendarBlankLight /> 2025
+          </p>
+        </div>
         {/* Programming Hero Certificate */}
         <div className="border border-chart-4 p-5 rounded-xl hover:shadow-green-500/30 transition-all">
           <h3 className="text-xl font-semibold mb-2 text-chart-4">
@@ -23,18 +35,6 @@ const Certificates = () => {
           </p>
         </div>
 
-        {/* Coursera Python Certificate */}
-        <div className="border border-chart-4 p-5 rounded-xl hover:shadow-green-500/30 transition-all">
-          <h3 className="text-xl font-semibold mb-2 text-chart-4">
-            Python Programming
-          </h3>
-          <p className="text-sm flex items-center gap-2 mb-2 text-muted-foreground">
-            <BsGlobe /> Coursera
-          </p>
-          <p className="text-sm flex items-center gap-2 text-muted-foreground">
-            <PiCalendarBlankLight /> 2022
-          </p>
-        </div>
         {/* Dev Skill Certificate */}
         <div className="border border-chart-4 p-5 rounded-xl hover:shadow-green-500/30 transition-all">
           <h3 className="text-xl font-semibold mb-2 text-chart-4">
@@ -45,6 +45,18 @@ const Certificates = () => {
           </p>
           <p className="text-sm flex items-center gap-2 text-muted-foreground">
             <PiCalendarBlankLight /> 2023
+          </p>
+        </div>
+        {/* Coursera Python Certificate */}
+        <div className="border border-chart-4 p-5 rounded-xl hover:shadow-green-500/30 transition-all">
+          <h3 className="text-xl font-semibold mb-2 text-chart-4">
+            Python Programming
+          </h3>
+          <p className="text-sm flex items-center gap-2 mb-2 text-muted-foreground">
+            <BsGlobe /> Coursera
+          </p>
+          <p className="text-sm flex items-center gap-2 text-muted-foreground">
+            <PiCalendarBlankLight /> 2022
           </p>
         </div>
       </div>

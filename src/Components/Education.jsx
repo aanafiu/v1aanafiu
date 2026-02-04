@@ -25,7 +25,7 @@ import {
       },
       {
         degree: "Secondary School Certificate(SSC)",
-        institution: "ABC High School",
+        institution: "Ahsania Mission School & College",
         duration: "Jun 2016 - Mar 2018",
         location: "Dhaka, Bangladesh",
         result: "5.00 GPA",
