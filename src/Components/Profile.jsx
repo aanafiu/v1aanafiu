@@ -56,11 +56,11 @@ const Profile = () => {
           Abdullah Al Nafiu
         </h1>
         <p className="text-base md:text-lg font-extralight">
-          Web Developer <span className="text-chart-4 font-bold">||</span>{" "}
+          Software Engineer <span className="text-chart-4 font-bold">||</span>{" "}
           Competitive Programmer
         </p>
         <p className="flex items-center gap-2 mt-3">
-          <FaLocationCrosshairs className="text-chart-4" /> Mirpur, Dhaka,
+          <FaLocationCrosshairs className="text-chart-4" /> Mirpur-12, Dhaka,
           Bangladesh
         </p>
       </div>
@@ -94,9 +94,10 @@ const Profile = () => {
           About
         </p>
         <p className="w-[100%] text-lg font-extralight">
-          Junior Full Stack Developer with a passion for building web
-          applications. Currently seeking opportunities to further develop my
-          skills in a professional setting.
+        Passionate Software Engineer dedicated to crafting clean, efficient, and 
+        user-friendly digital experiences. With expertise in modern web technologies 
+        and a problem-solving mindset, I enjoy building scalable solutions that solve 
+        real-world challenges.
         </p>
       </section>
       {/* Toggle Button */}
