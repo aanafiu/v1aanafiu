@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import mypp from "/myimg.jpg";
+import mypp from "/myimg.png";
 import {
   FaGithub,
   FaLinkedin,
@@ -35,10 +35,9 @@ const Profile = () => {
       <figure class="print:hidden w-fit relative animated-hover m-10">
         {" "}
         <img
-          class="shadow-lg shadow-skin-hue"
           src={mypp}
           alt="Abdullah Al Nafiu"
-          className="w-[250px] h-[250px] rounded-2xl p-2"
+          className="w-[250px] h-[250px] rounded-2xl p-2 object-cover shadow-lg hover:shadow-skin-hue/50 transition-all duration-300 ease-in-out "
         />{" "}
         <div class="pointer-events-none absolute -inset-2">
           {" "}

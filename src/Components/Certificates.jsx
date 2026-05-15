@@ -10,6 +10,19 @@ const Certificates = () => {
       </h2>
 
       <div className="grid md:grid-cols-2 gap-6">
+        {/* CS50 Certificate */}
+        <div className="border border-chart-4 p-5 rounded-xl hover:shadow-green-500/30 transition-all">
+          <h3 className="text-xl font-semibold mb-2 text-chart-4">
+            CS50's Introduction to Computer Science
+          </h3>
+          <p className="text-sm flex items-center gap-2 mb-2 text-muted-foreground">
+            <BsGlobe /> CS50 by Harvard University
+          </p>
+          <p className="text-sm flex items-center gap-2 text-muted-foreground">
+            <PiCalendarBlankLight /> 2026
+          </p>
+        </div>
+        
         {/* ICPC Certificate */}
         <div className="border border-chart-4 p-5 rounded-xl hover:shadow-green-500/30 transition-all">
           <h3 className="text-xl font-semibold mb-2 text-chart-4">
@@ -22,6 +35,7 @@ const Certificates = () => {
             <PiCalendarBlankLight /> 2025
           </p>
         </div>
+
         {/* Programming Hero Certificate */}
         <div className="border border-chart-4 p-5 rounded-xl hover:shadow-green-500/30 transition-all">
           <h3 className="text-xl font-semibold mb-2 text-chart-4">

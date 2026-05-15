@@ -2,11 +2,12 @@ import React from 'react';
 
 const skillsData = {
   programmingLanguages: ['JavaScript', 'Python', 'C++', 'C'],
-  frontend: ['Nextjs', 'Reactjs','DaisyUI',"Astro", 'Shadcn UI', 'Tailwind CSS', 'HTML', 'CSS'],
-  backend: ['Nodejs', 'Expressjs'],
-  database: ['MongoDB', 'MySQL(Beginner)'],
-  cloud: ['Netlify', 'Vercel', 'Firebase'],
+  frontend: ['Jinja', 'Reactjs','DaisyUI',"Astro", 'Shadcn UI', 'Tailwind CSS','Bootstrap', 'HTML', 'CSS'],
+  backend: ['Nodejs', 'Expressjs','Flask', ],
+  database: ['MongoDB', 'MySQL'],
+  cloud: ['Netlify', 'Vercel', 'Firebase',"Pythonanywhere", 'Render'],
   tools: [
+    'Hashing Passwords',
     'JWT',
     'VS Code',
     'EmailJS',

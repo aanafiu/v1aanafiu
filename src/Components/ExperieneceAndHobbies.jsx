@@ -1,7 +1,7 @@
 import { FaBriefcase, FaHeart } from "react-icons/fa";
 
 const ExperienceAndHobbies = () => {
-  const experiences = ["YouTubing", "AdMob", "AdSense"];
+  const experiences = ["YouTube Content Creation", "AdMob", "AdSense", "Social Media Management"];
   const hobbies = ["Traveling", "Video Editing", "Photo Editing", "Cooking", "Challenges"];
 
   return (

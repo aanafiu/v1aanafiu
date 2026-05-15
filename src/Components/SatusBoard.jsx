@@ -10,10 +10,10 @@ const StatusBoard = () => {
       <div className=" border border-chart-4 rounded-xl p-6 shadow-md">
         <h2 className="text-lg font-semibold mb-2">📚 Currently Learning</h2>
         <ul className="list-disc list-inside space-y-1 text-sm">
-          <li>Advanced JavaScript</li>
-          <li>Next.js</li>
-          <li>Node.js & Express (Deep Dive)</li>
-          <li>Data Structures & Algorithms</li>
+          <li>Polishing DSA</li>
+          <li>Optimization Queries</li>
+          <li>Python Libraries</li>
+          <li>Scrapy & Crawling </li>
         </ul>
       </div>
 

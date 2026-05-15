@@ -6,6 +6,7 @@ import {
     FaLandmark,
     FaUserTie,
   } from "react-icons/fa";
+import { HiArrowTurnDownRight, HiArrowTurnLeftDown } from "react-icons/hi2";
   
   const Education = () => {
     const educationList = [
@@ -14,14 +15,14 @@ import {
         institution: "National University Of Bangladesh",
         duration: "Jun 2022",
         location: "Dhaka, Bangladesh",
-        result: "3.52 CGPA (upto 5 Semester)",
+        result: "3.54 CGPA (upto 6 Semester)",
       },
       {
         degree: "Higher Secondary Certificate(HSC)",
         institution: "Mirpur Cantonment Public School & College",
         duration: "Jun 2018 - Mar 2020",
         location: "Dhaka, Bangladesh",
-        result: "5.00 CGPA",
+        result: "5.00 GPA",
       },
       {
         degree: "Secondary School Certificate(SSC)",
@@ -76,7 +77,11 @@ import {
           <span className="absolute -left-2 top-1.5 h-4 w-4 drop-shadow-2xl rounded-full border-chart-4 border-2 animate-pulse" />
             <p className="text-lg font-semibold flex items-center gap-2">
               <FaUserTie className="text-chart-4" />
-              Lead Technical Coordinator & Instructor
+              Vice President (Admin) & Instructor (2025-2026)
+            </p>
+            <p className="text-lg font-semibold flex items-center gap-2">
+              <HiArrowTurnDownRight className="text-chart-4" />
+              Lead Technical Coordinator & Instructor (2023-2025)
             </p>
             <p className="text-sm text-muted-foreground pl-7">
               Programming Club, Tejgaon College
